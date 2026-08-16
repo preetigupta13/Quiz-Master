@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Node.js
+node_modules/
+frontend/dist/
+
+# SQLite
+*.db
+
+# VS Code
+.vscode/
+
+# Other IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
