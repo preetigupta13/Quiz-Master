@@ -7,7 +7,7 @@ function Quiz() {
   useEffect(() => {
     console.log("Fetching questions...");
 
-    fetch("http://127.0.0.1:8000/quiz/questions")
+    fetch("https://quiz-master-backend-atve.onrender.com/quiz/questions")
       .then((response) => {
         console.log("Response received:", response.status);
 
